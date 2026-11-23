@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.1.0]
+- Require `xml` ^7.0.1 (needed by `pdf` 3.13 and newer packages)
+- Use `XmlName.parts`, since `XmlName.new` is deprecated in `xml` 7
+
 ## [5.0.0]
 - Update packages to latest versions
 - Migrate from `dart:html` to `package:web`
